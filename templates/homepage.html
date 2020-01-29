@@ -1,0 +1,21 @@
+{% extends "layouts/main_layout.html" %}
+{% block mainContent %}
+<form action="/result" method="POST" id="search">
+    <div class="input-group mb-3">
+        <input type="text"
+               name="location"
+               class="form-control"
+               id="txtArea"
+               placeholder="Search for a Location"
+               aria-label="Location"
+               aria-describedby="button-addon2"
+               required
+        >
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" id="button-addon2" type="submit">
+                Forecast
+            </button>
+        </div>
+    </div>
+</form>
+{% endblock %}
