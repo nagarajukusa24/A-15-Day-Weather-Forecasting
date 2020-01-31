@@ -28,8 +28,8 @@ def about_page():
     return render_template('about.html')
 
 if __name__ == '__main__':
- <<<<<<< HEAD
+ #<<<<<<< HEAD
     app.run(host='0.0.0.0', port=8080)
- =======
-    app.run(host='0.0.0.0', port=80)
- >>>>>>> 947b935549ca986524074f1c56ee16103ba4edaf
+ #=======
+  #  app.run(host='0.0.0.0', port=80)
+ #>>>>>>> 947b935549ca986524074f1c56ee16103ba4edaf
