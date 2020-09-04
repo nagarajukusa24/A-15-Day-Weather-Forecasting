@@ -1,7 +1,7 @@
 # Pyweather
 >simple flask application to provide weather forecast of a city
 
-This application uses an [Open API](https://openweathermap.org/) that provides 3 days weather forecast for a location.
+This application uses an [Open API](https://openweathermap.org/) that provides extended 15 days weather forecast for a location.
 Just simply type a location into homepage's search bar :)
 
 
